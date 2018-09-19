@@ -29,7 +29,7 @@ sudo minicom -D /dev/ttyUSB0
 bianyi
 
 ```
-#pacman -S build-essential git lzip ncurses-dev minicom
+sudo pacman -S git lzip minicom cpio
 ```
 ```
 git clone https://github.com/c-sky/buildroot.git
